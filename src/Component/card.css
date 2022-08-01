@@ -1,0 +1,17 @@
+.card {
+    width: 100%;
+    height: 400px;
+    background: blue;
+    padding: 10px;
+}
+
+.card-info {
+    display: flex;
+}
+
+.card-info img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+}

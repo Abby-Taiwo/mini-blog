@@ -1,0 +1,35 @@
+{
+  "posts": [{
+      "id": 1,
+      "name": "Satheesh",
+      "email": "Sat@mail.com",
+      "image": "",
+      "post": "South street"
+  }, {
+      "id": 2,
+      "name": "John",
+      "email": "john@mail.com",
+      "image": "",
+      "post": "North street"
+  }, {
+      "id": 3,
+      "name": "Robert",
+      "email": "robert@mail.com",
+      "image": "",
+      "post": "East street"
+  }, {
+      "id": 4,
+      "name": "Mani",
+      "email": "mani@mail.com",
+      "image": "",
+      "post": "West street"
+  }],
+  "comments": [{
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+  }],
+  "profile": {
+      "name": "typicode"
+  }
+}
