@@ -1,0 +1,142 @@
+.card {
+    width: 100%;
+    height: fit-content;
+    border-bottom: 1px solid #919596;
+
+    padding: 20px 40px;
+    margin-bottom: 10px;
+ 
+  
+}
+
+.card:first-child {
+    padding-top: 50px;
+}
+
+.card:last-child {
+    border-bottom: none;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+}
+
+.card-info img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 1px solid grey;
+}
+
+.card-info span a {
+  font-size: 14px;
+  text-decoration: none;
+  color: blue;
+}
+
+.card-info span div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+.card-info span a:hover {
+  
+  text-decoration: underline;
+}
+
+.card-info span {
+    margin-left: 10px;
+}
+
+.post {
+ margin-top: 30px;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ overflow-y: hidden;
+}
+
+
+
+.post h1 {
+    text-align: center;
+    
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post p {
+    text-indent: 50px;
+    font-size: 19px;
+    height: fit-content;
+    word-spacing: 3px;
+    line-height: 1.7;
+    width: fit-content;
+    margin: 30px 0 0 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 480;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.buttons button {
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    background: #f7f5f5;
+    margin-top: 30px;
+    justify-content: space-evenly; 
+    background-blend-mode: saturation;
+    border: 1px solid lightgray;
+}
+
+.buttons button img {
+    height: 30px;
+    width: 30px;
+}
+
+.input {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.input button {
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    background-color: rgb(44, 206, 29);
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 17.5px;
+}
+.input textarea{
+  
+  width: 100%;
+  padding: 15px 10px 0;
+  height: 280px;
+  border-radius: 4px;
+  font-size: 16.5px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-color: #999;
+  
+}
+.input textarea:focus,
+.input textarea:active{
+    outline: none;
+    border-color: #1eb945;
+    border-width: 2px;
+    transition: border-width .4s;
+  }
+

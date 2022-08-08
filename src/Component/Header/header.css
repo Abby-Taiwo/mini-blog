@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: lightblue;
+    align-items: center;
+    border-bottom: 1px solid #999;
+}
+
+.header h3 {
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header span {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
