@@ -9,7 +9,7 @@ function App() {
 
     useEffect(() => {
         const getUsers = async () => {
-            const resp = await fetch('http://localhost:3000/posts')
+            const resp = await fetch('http://localhost:3001/posts')
             const data = await resp.json()
             setData(data)
         };
