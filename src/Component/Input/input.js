@@ -1,4 +1,5 @@
 import React,{ useState, forwardRef, useImperativeHandle} from 'react'
+import "./input.css"
 
 const Input = ({ content }, ref) => {
 

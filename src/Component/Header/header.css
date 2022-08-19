@@ -2,18 +2,29 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
-    background: lightblue;
+    background: #f1f0f0;
     align-items: center;
     border-bottom: 1px solid #999;
 }
 
 .header h3 {
-    font-size: 25px;
-    font-family:'Courier New', Courier, monospace;
+    font-size: 29px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
 }
 
 .header span {
     width: 240px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header span a {
+    text-decoration: none;
+}
+
+.header span img {
+    width: 25px;
+    height: 25px;
 }

@@ -1,0 +1,20 @@
+textarea {
+
+    width: 100%;
+    padding: 15px 10px 0;
+    height: 280px;
+    border-radius: 4px;
+    font-size: 16.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-color: #999;
+
+}
+
+textarea:focus,
+textarea:active {
+    outline: none;
+    border-color: #1eb945;
+    border-width: 2px;
+    transition: border-width .4s;
+}

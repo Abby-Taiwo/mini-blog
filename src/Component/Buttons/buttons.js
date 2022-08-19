@@ -1,4 +1,5 @@
 import React from 'react'
+import "./button.css"
 
 const Buttons = ({setDisplay}) => {
 
@@ -7,7 +8,6 @@ const Buttons = ({setDisplay}) => {
             <button
                 onClick={() => {
                 setDisplay('flex') 
-                // display === "flex" // ? setDisplay('flex') // : setDisplay('none')
              }}>
                 <img
                 src="https://th.bing.com/th/id/OIP.kqt2LmpQmes4Ji4p4Z8R5gAAAA?pid=ImgDet&w=180&h=180&rs=1"

@@ -1,0 +1,25 @@
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.buttons button {
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    background: #f7f5f5;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    background-blend-mode: saturation;
+    border: 1px solid lightgray;
+}
+
+.buttons button img {
+    height: 30px;
+    width: 30px;
+}

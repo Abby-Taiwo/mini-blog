@@ -23,7 +23,7 @@ function App() {
             <Header/>
              <div style={{backgroundColor: '#bee0eb',paddingBottom: '20px'}}>
              {data.map((props) => {
-                return <Card props={props} key={props.id}/>
+                return <Card props={props} key={data.id}/>
              })}
              </div>
 

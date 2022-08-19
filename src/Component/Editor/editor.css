@@ -1,0 +1,16 @@
+.input {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input button {
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    background-color: rgb(44, 206, 29);
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 17.5px;
+}
